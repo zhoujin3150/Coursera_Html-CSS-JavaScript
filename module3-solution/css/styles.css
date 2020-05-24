@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: #999;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #222;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+    #header-nav {
+        height: 58px;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+
+    #collapsable-nav {
+        display: none;
+    }
+}
+
+#collapsable-nav {
+    border-top: none;
+}
+
+#nav-list a{
+    background-color: #999;
+    color: white;
+    border-top: 1px solid white;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+}
+
+#nav-list a:hover, #nav-list a:active {
+    background-color: lightgray;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #666;
+}
+
+#main-content {
+    clear: left;
+}
+
+#menu-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.section-container {
+    margin: 5px 5px 15px 5px;
+    padding: 5px 15px 10px 15px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.sub-title {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu-details {
+    font-size: 1.2em;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu-details a {
+    text-decoration: underline;
+}
